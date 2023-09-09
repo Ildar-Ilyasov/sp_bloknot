@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Timer timer = new Timer();
         for (int i = 0; i < 10; i++) {
-            timer.schedule(new NotepadTask(), i * 1000);
+            timer.schedule(new NotepadTask(), i * 10000);
         }
     }
 
